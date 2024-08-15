@@ -20,7 +20,7 @@ This Flask application allows users to input a URL, from which it scrapes data, 
 
 1. **Clone the repository**
     ```bash
-    git clone https://your-github-repo-url.git
+    git clone https://github.com/sujeetamberkar/sanjay
     cd your-repository-folder
     ```
 
