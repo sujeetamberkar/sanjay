@@ -21,7 +21,7 @@ This Flask application allows users to input a URL, from which it scrapes data, 
 1. **Clone the repository**
     ```bash
     git clone https://github.com/sujeetamberkar/sanjay
-    cd your-repository-folder
+    cd sanjay
     ```
 
 2. **Set up a virtual environment** (Optional but recommended)
