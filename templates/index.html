@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Input and Data Extraction</title>
+</head>
+<body>
+    <h1>Enter URL</h1>
+    <form method="post">
+        <input type="text" name="url" placeholder="Enter URL here..." required><br><br>
+        <button type="submit">Extract</button>
+    </form>
+    {% if extracted_data %}
+    <h2>Extracted Data:</h2>
+    {% for key, value in extracted_data.items() %}
+        <p>{{ key.replace('_', ' ').capitalize() }}: {{ value }}</p>
+    {% endfor %}
+{% endif %}
+
+</body>
+</html>
